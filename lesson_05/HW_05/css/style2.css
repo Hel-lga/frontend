@@ -1,0 +1,40 @@
+body{
+    background-color: aqua;
+}
+h1{
+    font-style: italic;
+    font-weight: normal;
+    color: blue;
+}
+p{
+    font-style: italic;
+}
+h2{
+    font-style: italic;
+    font-weight: lighter;
+    color: brown;
+
+}
+.blackweight{
+    font-weight: 700;
+    color:black;
+}
+.yellow{
+    font-style: italic;
+    color: white;
+    background-color: blue;
+
+}
+#italic{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: small;
+}
+ul{
+    background-color: blueviolet;
+}
+#resume{
+    color: blueviolet;
+    font-style: normal;
+    font-weight: bold;
+}
