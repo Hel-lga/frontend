@@ -1,0 +1,22 @@
+div {
+    text-align: justify;
+    text-indent: 0%;
+}
+
+.Example1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Example2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.Example3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    font-size: 18px;
+}
