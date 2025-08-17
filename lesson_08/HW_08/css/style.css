@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+   
+}
+
+header {
+    background-color: rgb(100, 100, 222);
+    width: 220vh;
+    height: 80px;
+    border-style: none;
+    text-align: center;
+    position: fixed;
+    z-index: 5;
+    
+}
+
+main {
+    min-height: 100vh;
+}
+.card{
+    height: 400px;
+    width: 400px;
+    margin: 0 50px 50px;
+    border-radius: 10%;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.relative1{
+    position: relative;
+    top: 100px;
+}
+.relative2{
+    position: relative;
+    top: 100px;
+    left: 250px;
+}
+.relative3{
+    position: relative;
+    top: 100px;
+    left: 500px;
+}
+h2{
+text-align: center;
+font-style: italic;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    border-radius: 5%;
+
+}
+.relative{
+    position: relative;
+}
+li#age{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+li#sex{
+ position: absolute;
+    top: 40px;
+    left: 80px;
+}
+
+
+
