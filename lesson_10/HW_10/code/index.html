@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>HW_10</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="#" method="get">
+            <h1>Форма обратной связи</h1>
+            <fieldset>
+                <legend>Как с вами связаться</legend>
+                <label for="name">Ваше имя:</label><br>
+                <input type="text" name="username" id="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" id="email"><br>
+                <label for="tel">Телефон:</label><br>
+                <input type="tel" name="tel" id="tel"><br><br>
+
+                <fieldset>
+                    <legend>Данние контракта</legend>
+                    <label for="date">Дата</label><br>
+                    <input type="date" name="date" id="date"><br>
+                    <label for="number">Номер:</label><br>
+                    <input type="text" name="number" id="number" placeholder="K/209/13">
+                </fieldset>
+            </fieldset>
+            <p>Оцените наш сервис:</p>
+
+            <span> <input type="radio" name="good" value="good" checked>Хорошо</span>
+            <span></span> <input type="radio" name="good" value="ok">Удовлетворительно</span>
+            <span></span> <input type="radio" name="good" value="bad">Плохо</span><br>
+
+            <p>Как часто используете наш сервис:</p>
+
+            <span> <input type="radio" name="oft" value="first">Первий раз</span>
+            <span></span> <input type="radio" name="oft" value="seltsam">Иногда</span>
+            <span></span> <input type="radio" name="oft" value="oft" checked>Часто</span><br><br>
+
+            <label for="msg">Сообщение: </label><br>
+            <textarea rows="5" cols="50" name="comments" maxlength="250" id="msg"
+                placeholder="Напишите ваше сообщение ...."></textarea><br>
+
+            <fieldset>
+                <input type="checkbox" name="condition" id="yes">
+                <label for="yes">Даю согласие</label>
+            </fieldset><br>
+
+            <input type="submit" name="submit-form" value="Отправить" id="color">
+        </form>
+    </div>
+</body>
+
+</html>

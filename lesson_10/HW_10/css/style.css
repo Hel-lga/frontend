@@ -1,0 +1,15 @@
+body{
+    background-color: aliceblue;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+form{
+    width: 60%;
+}
+#color{
+    background-color: aqua;
+}
